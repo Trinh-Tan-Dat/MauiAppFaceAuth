@@ -12,19 +12,40 @@
                 Source="dotnet_bot.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+                SemanticProperties.Description="dot net bot in a race car number eight"/>
 
             <Label
                 Text="Hello, World!"
                 Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
+                SemanticProperties.HeadingLevel="Level1"/>
 
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                Clicked="OpenCamera"
-                HorizontalOptions="Fill"/>
+            <Entry
+                x:Name="UserIdEntry"
+                Placeholder="Register Face"
+                HorizontalOptions="FillAndExpand"/>
+
+            <HorizontalStackLayout
+                Spacing="15"
+                HorizontalOptions="Center">
+                <Button
+                    x:Name="CounterBtn"
+                    Text="Recognize Face"
+                    Clicked="OpenCamera"
+                    HorizontalOptions="FillAndExpand"/>
+
+                <Button
+                    x:Name="RegisterFaceBtn"
+                    Text="Register Face"
+                    Clicked="RegisterFace"
+                    HorizontalOptions="FillAndExpand"/>
+
+                <Button
+                    x:Name="ListFaceRegisteredBtn"
+                    Text="List Face Registered"
+                    Clicked="ListFaceRegistered"
+                    HorizontalOptions="FillAndExpand"/>
+            </HorizontalStackLayout>
 
             <Image
                 x:Name="CapturedImage"
@@ -32,6 +53,7 @@
                 HeightRequest="300"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
