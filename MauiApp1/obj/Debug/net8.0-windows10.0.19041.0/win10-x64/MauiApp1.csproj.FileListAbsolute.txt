@@ -461,3 +461,17 @@ C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\obj\Debug\net8.0-windows10.0.19041
 C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp1.sourcelink.json
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Emgu.CV.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SixLabors.ImageSharp.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cvextern.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\libusb-1.0.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\opencv_videoio_ffmpeg490_64.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\concrt140.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\msvcp140.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\msvcp140_1.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\msvcp140_2.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\msvcp140_atomic_wait.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\msvcp140_codecvt_ids.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\vcruntime140.dll
+C:\Users\TrinhDat\Downloads\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\vcruntime140_1.dll

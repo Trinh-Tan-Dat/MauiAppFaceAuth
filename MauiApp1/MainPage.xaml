@@ -3,58 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            x:Name="MainLayout"
-            Padding="30,0"
-            Spacing="25">
-            <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight"/>
-
-            <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1"/>
-
-
-            <Entry
-                x:Name="UserIdEntry"
-                Placeholder="Register Face"
-                HorizontalOptions="FillAndExpand"/>
-
-            <HorizontalStackLayout
-                Spacing="15"
-                HorizontalOptions="Center">
-                <Button
-                    x:Name="CounterBtn"
-                    Text="Recognize Face"
-                    Clicked="OpenCamera"
-                    HorizontalOptions="FillAndExpand"/>
-
-                <Button
-                    x:Name="RegisterFaceBtn"
-                    Text="Register Face"
-                    Clicked="RegisterFace"
-                    HorizontalOptions="FillAndExpand"/>
-
-                <Button
-                    x:Name="ListFaceRegisteredBtn"
-                    Text="List Face Registered"
-                    Clicked="ListFaceRegistered"
-                    HorizontalOptions="FillAndExpand"/>
-            </HorizontalStackLayout>
-
-            <Image
-                x:Name="CapturedImage"
-                WidthRequest="300"
-                HeightRequest="300"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"/>
-
-        </VerticalStackLayout>
-    </ScrollView>
-
+    <StackLayout>
+        <Image x:Name="CameraView"/>
+        <Entry x:Name="UserIdEntry"
+                Placeholder="Nhập User ID"/>
+        <Button Text="Đăng ký khuôn mặt"
+                Clicked="OnRegisterFaceClicked"/>
+        <Button Text="Nhận diện khuôn mặt"
+                Clicked="OnDetectFaceClicked"/>
+    </StackLayout>
 </ContentPage>
